@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c4c4c4;
+}
+
+.container{
+    margin: 50px auto;  
+    width: 900px;
+    padding: 50px;       
+    background-color: #f5f5f5;
+    box-shadow: #333 0px 0px 9px;
+    border-radius: 9px;
+    text-align: justify;
+}
+
+#header{
+    text-align: center;
+    padding: 10px;
+}
+
+.container-dados-pessoais{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dados-pessoais{
+    padding: 5px;
+}
+
+.dados-pessoais a{
+    color: blue;
+    font-style: italic;
+}
+
+.dados-pessoais a:hover{
+    text-decoration: underline;
+}
+
+.subtitulo{
+    padding: 10px;
+    font-size: medium;
+}
+
+.container-box{
+    padding: 5px 0;
+}
+
